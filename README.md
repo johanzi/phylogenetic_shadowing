@@ -27,7 +27,7 @@ Example of phylogenetic shadowing between 6 related species from the Brassicacea
 
 * Copy-paste the content in a text file
 * Do the same for the other alignment but omit the first sequence which is already present (e.g. Arabidopsis thaliana). See [BlockE_conserved.txt](example/BlockE_conserved.txt).
-* Change the name of the sequence so that it contains no spaces (e.g. “>Drummond's rockcress v.1.0 Scaffold26959:3697497-3698805 (-)” becomes “>B.stricta”) and that the title contains maximum 16 characters to be displayed fully once processed in BoxShade. See [Input_Clustal_BlockE.txt](example/Input_Clustal_BlockE.txt)
+* Change the name of the sequence so that it contains no spaces (error in Clustal Omega alignment) nor dots (error in BoxShade). The title should contain maximum 16 characters to be displayed fully once processed in BoxShade (e.g. “>Drummond's rockcress v.1.0 Scaffold26959:3697497-3698805 (-)” becomes “>B_stricta”)
 * Put the alignments in the order wanted (the reference sequence is put first)
 
 ## In Clustal Omega
