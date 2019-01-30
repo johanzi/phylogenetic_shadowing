@@ -30,6 +30,8 @@ Example of phylogenetic shadowing between 6 related species from the Brassicacea
 * Change the name of the sequence so that it contains no spaces (error in Clustal Omega alignment) nor dots (error in BoxShade). The title should contain maximum 16 characters to be displayed fully once processed in BoxShade (e.g. “>Drummond's rockcress v.1.0 Scaffold26959:3697497-3698805 (-)” becomes “>B_stricta”)
 * Put the alignments in the order wanted (the reference sequence is put first)
 
+**Note**: VISTA tool provides scientific and vernacular plant names, which is not the best practice. Drummond's rockcress is *Arabidopsis drumondii*, also called *Boechera stricta*. They also have Turnip mustard and Napa cabbage which are the same species *Brassica rapa* but different cultivars (*Brassica rapa* subsp. *oleifera* and *Brassica rapa* subsp. *pekinensis*, respectively).
+
 ## In Clustal Omega
 
 * Go to http://www.ebi.ac.uk/Tools/msa/clustalo/
