@@ -46,7 +46,7 @@ Example of phylogenetic shadowing between 6 related species from the Brassicacea
 
 ## In BoxShade
 
-* Go to http://www.ch.embnet.org/software/BOX_form.html
+* Go to http://arete.ibb.waw.pl/PL/html/boxshade.html
 * Select ‘RTF_new’ as output format 
 * Select as ‘ALN’ as input sequence format
 * Copy and paste the content of `Input_BoxShade_BlockE.txt` in the input box
