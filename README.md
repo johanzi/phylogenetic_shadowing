@@ -39,7 +39,7 @@ Example of phylogenetic shadowing between 6 related species from the Brassicacea
 * Copy paste the content of the text file with all species from VISTA `Input_Clustal_BlockE.txt` 
 * In Step 2, click ‘More options’ and choose ‘input’ in the option ‘ORDER’ so that the order of the user is respected in the final display
 * Submit the job
-* Click on ‘Download Alignment File’ and save as `Output_Clustal_BlockE.txt`
+* Click on ‘Download Alignment File’ and save as `Output_Clustal_BlockE.aln`
 
 Alternatively, one can use clustalw in the command line:
 `clustalw -infile=Input_Clustal_BlockE.txt -OUTORDER=input -OUTFILE=Output_Clustal_BlockE.aln` and use the output file `Output_Clustal_BlockE.aln` in the next step
