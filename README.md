@@ -41,12 +41,15 @@ Example of phylogenetic shadowing between 6 related species from the Brassicacea
 * Submit the job
 * Click on ‘Download Alignment File’ and save as `Output_Clustal_BlockE.txt`
 
+Alternatively, one can use clustalw in the command line:
+`clustalw -infile=Input_Clustal_BlockE.txt -OUTORDER=input -OUTFILE=Output_Clustal_BlockE.aln` and use the output file `Output_Clustal_BlockE.aln` in the next step
+
 ## In BoxShade
 
-The webtool used here is based on [pyBoxshade](https://github.com/mdbaron42/pyBoxshade) and can also be run in command line.
+The webtool used here is based on [pyBoxshade](https://github.com/mdbaron42/pyBoxshade) and can also be run in the command line.
 
 * Go to [https://junli.netlify.app/apps/boxshade/](https://junli.netlify.app/apps/boxshade/)
-* Click "Choose file" and add `Output_Clustal_BlockE.txt`
+* Click "Choose file" and add `Output_Clustal_BlockE.aln`
 * Select "CLUSTAL file" as input sequence format
 * Select "RTF" as output format 
 * Click "Start shading"
