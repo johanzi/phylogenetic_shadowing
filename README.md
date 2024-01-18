@@ -34,7 +34,7 @@ Example of phylogenetic shadowing between 6 related species from the Brassicacea
 
 ## In Clustal Omega
 
-* Go to http://www.ebi.ac.uk/Tools/msa/clustalo/
+* Go to https://www.ebi.ac.uk/jdispatcher/msa/clustalo
 * Choose ‘DNA’
 * Copy paste the content of the text file with all species from VISTA `Input_Clustal_BlockE.txt` 
 * In Step 2, click ‘More options’ and choose ‘input’ in the option ‘ORDER’ so that the order of the user is respected in the final display
