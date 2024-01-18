@@ -39,18 +39,18 @@ Example of phylogenetic shadowing between 6 related species from the Brassicacea
 * Copy paste the content of the text file with all species from VISTA `Input_Clustal_BlockE.txt` 
 * In Step 2, click ‘More options’ and choose ‘input’ in the option ‘ORDER’ so that the order of the user is respected in the final display
 * Submit the job
-* Click on ‘Download Alignment File’
-* To be processed in BoxShade, the file needs to be modified. For this, the script [clustalOmega2BoxShade.py](clustalOmega2BoxShade.py) can be used on a Linux/Unix system with Python 2.7 or 3.4 installed. The script converts the Clustal output into a FASTA format 
-* Enter in command line: `python clustalOmega2BoxShade.py Output_Clustal_BlockE.txt > Input_BoxShade_BlockE.txt`
-* The content of the output file `Input_BoxShade_BlockE.txt` can be used in BoxShade webtool. See [Input_BoxShade_BlockE.txt](example/Input_BoxShade_BlockE.txt)
+* Click on ‘Download Alignment File’ and save as `Output_Clustal_BlockE.txt`
 
 ## In BoxShade
 
-* Go to http://arete.ibb.waw.pl/PL/html/boxshade.html
-* Select ‘RTF_new’ as output format 
-* Select as ‘ALN’ as input sequence format
-* Copy and paste the content of `Input_BoxShade_BlockE.txt` in the input box
-* Download the output RTF file (can be opened in Word and exported as pdf). See [Output_BoxShade_BlockE.rtf](example/Output_BoxShade_BlockE.rtf)
+The webtool used here is based on [pyBoxshade](https://github.com/mdbaron42/pyBoxshade) and can also be run in command line.
+
+* Go to [https://junli.netlify.app/apps/boxshade/](https://junli.netlify.app/apps/boxshade/)
+* Click "Choose file" and add `Output_Clustal_BlockE.txt`
+* Select "CLUSTAL file" as input sequence format
+* Select "RTF" as output format 
+* Click "Start shading"
+* File is automatically saved as `output.rdf`
 
 The output should look like:
 
